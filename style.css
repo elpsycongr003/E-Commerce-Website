@@ -21,6 +21,10 @@ nav {
     margin: 0 auto;
 }
 
+.purple {
+    color: #7342d6;
+}
+
 .logo {
     width: 160px;
 }
@@ -32,6 +36,7 @@ ul {
 li {
     list-style-type: none;
 }
+
 
 .nav__link {
     margin-left: 16px;
