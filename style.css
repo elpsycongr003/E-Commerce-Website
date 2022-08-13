@@ -155,7 +155,7 @@ button:active {
 }
 
 .highlight__img {
-  border: 2px solid #7342d6;
+  border: 2px solid #7342d65d;
   width: 100px;
   height: 100px;
   display: flex;
