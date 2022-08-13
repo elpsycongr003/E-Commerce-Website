@@ -126,13 +126,13 @@ button:active {
 }
 
 .container {
-    padding: 56px 0;
+  padding: 56px 0;
 }
 
 .row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* HIGHLIGHTS */
@@ -148,4 +148,18 @@ button:active {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.highlight__para {
+  text-align: center;
+}
+
+.highlight__img {
+  border: 2px solid #7342d6;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
