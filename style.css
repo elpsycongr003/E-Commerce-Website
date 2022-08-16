@@ -229,7 +229,7 @@ button:active {
 .book__img {
   max-height: 380px;
   transition: all 300ms ease;
-  cursor: no-drop;
+  cursor: not-allowed;
 }
 
 .book__img--wrapper {
@@ -250,5 +250,16 @@ button:active {
 
 .book__title:hover {
   text-decoration: underline;
-  cursor: no-drop;
+  cursor: not-allowed;
+}
+
+.book__ratings {
+  margin-bottom: 8px;
+  color: #fabf2a;
+}
+
+.book__price--normal {
+  text-decoration: line-through;
+  padding-right: 8px;
+  color: #bfbfbf;
 }
