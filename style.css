@@ -210,7 +210,7 @@ button:active {
   margin-bottom: 16px;
 }
 
-/*FEATURES*/
+/*FEATURED*/
 
 #features {
   padding-top: 8vw;
@@ -219,6 +219,7 @@ button:active {
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
