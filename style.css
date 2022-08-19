@@ -122,6 +122,11 @@ li {
   opacity: 1;
 }
 
+.menu--open {
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
 .menu__list {
   padding: 32px 0;
 }
